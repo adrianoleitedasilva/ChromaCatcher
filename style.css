@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+    background-color: #FFF;
+    width: 350px;
+}
+
+.container :where(.seletor, header, .todasAsCores) {
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.container .seletor {
+    padding: 35px 0;
+    background-color: #8eb1c7;
+    justify-content: center;
+}
+
+.seletor #btnSelecionar {
+    margin-right: 8px;
+}
+
+.seletor #btnSelecionar, .seletor #btnExportar {
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: .9rem;
+    cursor: pointer;
+    padding: 6px 12px;
+    background-color: #f15152;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.seletor #btnSelecionar:hover, .seletor #btnExportar:hover {
+    background-color: #a93f55;
+}
+
+.cor-list {
+    margin: 10px 15px;
+}
+
+.cor-list header {
+    justify-content: space-between;
+}
+
+header .titulo{
+    font-size: 1rem;
+}
+
+header #btnLimpar {
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #323232;
+}
+
+header #btnLimpar:hover {
+    color: #a93f55;
+}
+
+.cor-list.ocultar {
+    display: none;
+}
+
+.cor-list .todasAsCores {
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10px 0 0;
+}
+
+.todasAsCores .cor {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: calc(100% / 3);
+}
+
+.todasAsCores .retangulo {
+    height: 22px;
+    width: 22px;
+    display: block;
+    margin-right: 3px;
+    border-radius: 3px;
+}
+
+.todasAsCores .cor span {
+    font-size: 0.86rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.cor-popup {
+    position: fixed;
+    top: 52px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.cor-popup-conteudo {
+    padding: 20px;
+}
+
+.cor-info {
+    display: flex;
+    align-items: center;
+}
+
+.cor-preview {
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cor-detalhe {
+    flex-grow: 1;
+}
+
+.cor-valor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.rótulo {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.valor {
+    cursor: pointer;
+}
+
+span.fechar-popup {
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+}
