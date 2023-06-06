@@ -14,9 +14,7 @@
 
 ## Descrição
 
-ChromaCatcher é uma extensão poderosa para o Google Chrome que permite recuperar facilmente as cores de qualquer página da web. Com apenas um clique, você poderá identificar as cores usadas em um site e capturá-las para uso em seus próprios projetos de design, desenvolvimento ou qualquer outra atividade criativa.
-
-ChromaCatcher é uma ferramenta indispensável para designers, desenvolvedores, artistas gráficos e qualquer pessoa envolvida na criação de conteúdo visual. Simplifique o processo de seleção de cores e adicione um toque de estilo aos seus projetos com a ajuda desta extensão incrível.
+ChromaCatcher é uma extensão poderosa para o Google Chrome que permite recuperar facilmente as cores de qualquer página da web. Com apenas um clique, você poderá identificar as cores usadas em um site e capturá-las para uso em seus próprios projetos de design, desenvolvimento ou qualquer outra atividade criativa. Uma ferramenta indispensável para designers, desenvolvedores, artistas gráficos e qualquer pessoa envolvida na criação de conteúdo visual. Simplifique o processo de seleção de cores e adicione um toque de estilo aos seus projetos com a ajuda desta extensão incrível.
 
 Além disso, a extensão ChromaCatcher oferece recursos avançados para atender às suas necessidades específicas. Você pode selecionar áreas específicas da página para capturar cores ou até mesmo extrair esquemas de cores completos a partir de elementos individuais, como botões, barras de navegação e imagens. 
 
